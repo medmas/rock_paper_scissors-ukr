@@ -43,7 +43,7 @@ switch(playerChoice){
       break;
   default:
       cout << "\tНевірний вибір!" << endl << endl;
-      break;            
+      return 0;            
 }
 
 // Логіка комп'ютера.
